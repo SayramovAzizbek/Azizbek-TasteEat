@@ -655,18 +655,21 @@
                     <p>Book Your Table</p>
                 </div>
                 <div class="reserve-full-info">
-                    <div class="reserve-top-info">
-                        <input type="text" required placeholder="Name">
-                        <input type="email" required placeholder="Email">
-                    </div>
-                    <div class="reserve-past-info">
-                        <input type="text" placeholder="Persons">
-                        <input type="text" placeholder="Timing">
-                        <input type="datetime-local">
-                    </div>
-                    <div class="reserve-link-box">
-                        <a href="#">Book A Table</a>
-                    </div>
+                    <form action="https://azizbek-tasteeat.netlify.app/">
+                        <!-- https://echo.htmlacademy.ru/courses -->
+                        <div class="reserve-top-info">
+                            <input type="text" name="Name" aria-label="Name" autocomplete="off" placeholder="Name" required>
+                            <input type="email" name="Email" aria-label="Email" autocomplete="off" placeholder="Email" required>
+                        </div>
+                        <div class="reserve-past-info">
+                            <input type="number" name="Person" aria-label="Persons" autocomplete="off" placeholder="Persons" required>
+                            <input type="tel" name="Phone Number" aria-label="Your Phone Number" autocomplete="off" minlength="9" placeholder="Phone Number" required>
+                            <input type="datetime-local" name="Reserve Time" aria-label="Reserve Time" autocomplete="off" required>
+                        </div>
+                        <div class="reserve-link-box">
+                            <button class="input-form-btn" type="submit" onclick="reserveBtn()">Book A Table</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -708,8 +711,10 @@
                         <p>Join our mailing list for updates,</p>
                         <p>Get news & offers events.</p>
                         <div class="footer-mail-box">
-                            <input type="email" placeholder="Email">
-                            <a href="#">Subscribe</a>
+                            <form action="https://azizbek-tasteeat.netlify.app/" method="POST">
+                                <input class="footer-input-form" type="email" name="Client's accaunt for subscribe" autocomplete="off" placeholder="Email" required>
+                                <button class="footer-input-btn" type="submit" onclick="footerBtn()">Subscribe</button>
+                            </form>
                         </div>
                     </div>
                     <div class="footer-work-hour">

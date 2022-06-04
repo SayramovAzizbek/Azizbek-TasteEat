@@ -32,8 +32,8 @@ body {
 .header-number,
 .header-top-link,
 .blog-link,
-.reserve-link-box a,
-.footer-mail-box a {
+.input-form-btn,
+.footer-input-btn {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
@@ -50,8 +50,8 @@ body {
 .menu-link:hover,
 .past-menu-link:hover,
 .blog-link:hover,
-.reserve-link-box a:hover,
-.footer-mail-box a {
+.input-form-btn:hover,
+.footer-input-btn:hover {
     background: #E1B168;
     color: #292E36;
 }
@@ -979,12 +979,20 @@ body {
     margin-right: 23px;
 }
 
-.reserve-link-box a {
+.input-form-btn,
+.footer-input-btn {
     display: inline-block;
+    background-color: transparent;
+    color: #E1B168;
+    border: 2px solid #E1B168;
 }
 
-.reserve-link-box a:active,
-.footer-mail-box a:active {
+.input-form-btn:hover {
+    border: 2px solid #E1B168;
+}
+
+.input-form-btn:active,
+.footer-input-btn:active {
     background-color: #fff;
     border: 2px solid #fff;
 }
@@ -1060,7 +1068,7 @@ footer {
     color: #fff;
 }
 
-.footer-mail-box a{
+.footer-input-btn{
     padding: 11.5px 40px;
 }
 

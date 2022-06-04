@@ -13,3 +13,17 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+
+const InputFormBtn = document.querySelector('.input-form-btn')
+const FooterBtn = document.querySelector('.footer-input-btn')
+// const footerInputForm = document.querySelector('.footer-input-form')
+
+InputFormBtn.addEventListener('click', () => {
+  InputFormBtn.innerHTML= "You Booked"
+    alert("You Booked a Table")
+})
+
+FooterBtn.addEventListener('click', () => {
+  FooterBtn.innerHTML= "Subcribed"
+  alert("You subscribed \n\Thank you for supporting")
+})
