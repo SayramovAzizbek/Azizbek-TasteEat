@@ -34,14 +34,14 @@ body {
 .blog-link,
 .input-form-btn,
 .footer-input-btn {
+    padding: 20px 57px;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
     border: 2px solid #E1B168;
-    padding: 20px 57px;
-    transition: .5s;
     text-decoration: none;
+    transition: .5s;
 }
 
 .header-number:hover,
@@ -52,8 +52,8 @@ body {
 .blog-link:hover,
 .input-form-btn:hover,
 .footer-input-btn:hover {
-    background: #E1B168;
     color: #292E36;
+    background-color: #E1B168;
 }
 
 .site-logo {
@@ -68,10 +68,10 @@ body {
 
 .header-line-top,
 .header-line-past {
-    /* width: 1540px; */
-    background: #5C6168;
     margin: 0;
+    /* width: 1540px; */
     padding: 0;
+    background: #5C6168;
 }
 
 .header-nav {
@@ -84,9 +84,9 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .nav-item {
@@ -147,11 +147,11 @@ body {
 }
 
 .hero-info p {
+    padding: 26px 0 35px 0;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    padding: 26px 0 35px 0;
 }
 
 .hero-info a {
@@ -160,9 +160,9 @@ body {
     text-align: center;
     letter-spacing: 0.2px;
     color: #E1B168;
-    text-decoration: none;
     padding: 20px 57px;
     border: 2px solid #E1B168;
+    text-decoration: none;
     transition: .5s;
 }
 
@@ -184,10 +184,10 @@ body {
 }
 
 .hero-frame-1 {
+    margin-left: 30px;
     width: 656px;
     height: 30px;
     background: rgba(255, 255, 255, 0.1);
-    margin-left: 30px;
 }
 
 .hero-frame-box {
@@ -226,13 +226,13 @@ body {
 }
 
 .img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 83px;
     height: 83px;
     background-color: #292E36;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .info-location {
@@ -270,9 +270,9 @@ body {
 }
 
 .main-info-part {
-    padding: 84px 0 125px 0;
     display: flex;
     /* align-items: center; */
+    padding: 84px 0 125px 0;
 }
 
 
@@ -302,8 +302,8 @@ body {
 
 .info-years-list {
     display: flex;
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 .info-years-list h3 {
@@ -329,9 +329,9 @@ body {
 }
 
 .signuture-box img {
+    margin-top: 10px;
     width: 198px;
     height: 108px;
-    margin-top: 10px;
 }
 
 /* End of Info Section */
@@ -351,6 +351,7 @@ body {
 .reserve-top-text h3,
 .footer-contact h3,
 .footer-work-hour h3 {
+    margin-bottom: 12px;
     max-width: 60px;
     padding-top: 5px;
     border-top: 1px solid #E1B168;
@@ -360,7 +361,6 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #292E36;
-    margin-bottom: 12px;
 }
 
 .menu-food-info h3 {
@@ -368,8 +368,8 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    text-transform: capitalize;
     color: #292E36;
+    text-transform: capitalize;
 }
 
 .menu-food-info p {
@@ -380,21 +380,21 @@ body {
 }
 
 .menu-food-info img {
+    margin: 25px 0 60px 0;
     width: 398px;
     height: 548px;
-    margin: 25px 0 60px 0;
 }
 
 .menu-link,
 .past-menu-link {
+    display: inline-block;
+    padding: 20px 57px;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
     color: #E1B168;
-    display: inline-block;
     text-decoration: none;
     border: 2px solid #E1B168;
-    padding: 20px 57px;
     transition: .5s;
 }
 
@@ -448,12 +448,12 @@ body {
 }
 
 .price-box h6 {
+    margin-bottom: -2px;
     font-family: 'Cormorant Infant';
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
     color: #292E36;
-    margin-bottom: -2px;
 }
 
 .main-dish-menu,
@@ -464,13 +464,13 @@ body {
 /* End of Menu Section */
 /* Testimonial Section */
 #testimonal-section {
-    background: #292E36;
+    background-color: #292E36;
     padding: 145px 0 120px 0;
 }
 
 .testimonal-part h2 {
-    color: #fff;
     max-width: 138px;
+    color: #fff;
 }
 
 .testimonal-part h3 {
@@ -490,9 +490,9 @@ body {
 }
 
 .slide-info {
-    background: #343942;
-    padding: 20px 40px;
     width: 544px;
+    padding: 20px 40px;
+    background-color: #343942;
 }
 
 .slide-info-top {
@@ -506,17 +506,17 @@ body {
 }
 
 .sign-box {
-    background: #E1B168;
-    border: 2px solid #292E36;
-    border-radius: 100px;
-    width: 28px;
-    height: 28px;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 28px;
+    height: 28px;
+    background: #E1B168;
+    border: 2px solid #292E36;
+    border-radius: 100px;
 }
 
 .slide-sign {
@@ -548,12 +548,12 @@ body {
 }
 
 .info-text p {
+    margin: 0;
     font-family: 'Cormorant Infant';
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.25px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .swiper {
@@ -595,11 +595,11 @@ body {
 
 /* Under Slide Photo */
 #under-slide {
+    width: 100%;
+    height: 600px;
     background-image: url(../images/under-slide-photo.jpg);
     /* background-position: center;
     background-size: contain; */
-    width: 100%;
-    height: 600px;
 }
 
 /* End of Under Slide Photo */
@@ -618,8 +618,8 @@ body {
 
 .offers-info-top h3,
 .blog-top-info h3 {
-    max-width: 75px;
     margin: 0 auto;
+    max-width: 75px;
 }
 
 .offers-info-top h2,
@@ -636,34 +636,34 @@ body {
 .offers-info-top p,
 .past-menu-main-info p,
 .blog-top-info p {
+    margin: 0 auto;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: #555555;
-    margin: 0 auto;
 }
 
 .offer-list {
     display: flex;
     justify-content: space-around;
-    list-style: none;
     margin-top: 40px;
+    list-style: none;
 }
 
 .offer-item-left,
 .offer-item-right {
-    background-image: url(../images/blue-background.jpg);
-    width: 665px;
-    height: 409px;
     display: flex;
     align-items: center;
+    height: 409px;
+    width: 665px;
     padding: 0 40px 0 40px;
+    background-image: url(../images/blue-background.jpg);
 }
 
 .offer-item-right {
-    background-image: url(../images/grey-background.jpg);
     width: 665px;
     height: 409px;
+    background-image: url(../images/grey-background.jpg);
 }
 
 .offer-item-price {
@@ -692,6 +692,8 @@ body {
 }
 
 .offer-info p:first-child {
+    margin: 48px 0 8px 0;
+    max-width: 210px;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 4.5px;
@@ -699,8 +701,6 @@ body {
     color: #292E36;
     border-top: 1px solid #292E36;
     border-bottom: 1px solid #292E36;
-    max-width: 210px;
-    margin: 48px 0 8px 0;
 }
 
 .offer-info h6 {
@@ -712,11 +712,11 @@ body {
 }
 
 .offer-info p:last-child {
+    margin: 0;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: #555555;
-    margin: 0;
 }
 
 .offers-prices-right h4,
@@ -736,8 +736,8 @@ body {
 }
 
 .past-menu-list {
-    list-style: none;
     margin-top: 50px;
+    list-style: none;
 }
 
 .past-menu-list img {
@@ -810,8 +810,8 @@ body {
 }
 
 .icons-box-main {
-    border: 20px solid #323841;
     margin-left: 30px;
+    border: 20px solid #323841;
 }
 
 .icons-box {
@@ -820,11 +820,11 @@ body {
 }
 
 .icons-box h4 {
+    margin-top: 15px;
     font-family: 'Cormorant Infant';
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.2px;
-    margin-top: 15px;
 }
 
 /* End of Our Offer Sectcion */
@@ -835,21 +835,20 @@ body {
 }
 
 .blog-top-info h3 {
-    max-width: 55px;
     margin-bottom: 10px;
+    max-width: 55px;
 }
 
 .blog-food-info {
     display: flex;
-    margin-top: 40px;
     justify-content: space-around;
+    margin-top: 40px;
 }
 
 .blog-food-about {
     display: inline-block;
-    border: 1px solid #C4C4C4;
-    ;
     padding: 0;
+    border: 1px solid #C4C4C4;
 }
 
 .blog-food-about-photo {
@@ -857,10 +856,10 @@ body {
 }
 
 .blog-food-about-photo .blog-link {
-    color: #000;
     position: absolute;
     right: 30%;
     bottom: 0%;
+    color: #000;
     border: none;
     transition: 1s ease-in-out;
     visibility: hidden;
@@ -868,8 +867,8 @@ body {
 }
 
 .blog-food-about-photo:hover .blog-link {
-    visibility: visible;
     bottom: 40%;
+    visibility: visible;
     color: #292E36;
     background: #E1B168;
     border: 2px solid #E1B168;
@@ -880,8 +879,8 @@ body {
 }
 
 .blog-food-about-photo img {
-    transition: 1s ease-in-out;
     width: 100%;
+    transition: 1s ease-in-out;
 }
 
 .blog-food-about-photo:hover img {
@@ -903,18 +902,18 @@ body {
 }
 
 .blog-food-about-info-top h3:last-child {
-    white-space: nowrap;
-    max-width: 160px;
     margin-left: 30px;
+    max-width: 160px;
+    white-space: nowrap;
 }
 
 .blog-food-about-info h2 {
+    margin: 20px 0 25px 0;
     font-family: 'Cormorant Infant';
     font-size: 30px;
     line-height: 39px;
     letter-spacing: 0.2px;
     color: #292E36;
-    margin: 20px 0 25px 0;
 }
 
 .blog-food-about-info p {
@@ -928,20 +927,21 @@ body {
 
 /* Reserve Section */
 #reserve {
-    background-image: url(../images/reserve-bg.jpg);
     width: 100%;
+    padding: 140px 260px;
+    background-image: url(../images/reserve-bg.jpg);
     background-position: center;
     background-size: cover;
-    padding: 140px 260px;
 }
 
 .reserve-part {
-    background: rgba(41, 46, 54, 0.95);
     padding: 145px 140px 155px 140px;
+    background: rgba(41, 46, 54, 0.95);
     text-align: center;
 }
 
 .reserve-part p {
+    margin: 11px 0 38px 0;
     font-family: 'Cormorant Infant';
     font-style: normal;
     font-weight: 400;
@@ -949,24 +949,22 @@ body {
     line-height: 56px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    margin: 11px 0 38px 0;
 }
 
 .reserve-part h3 {
-    color: #fff;
-    max-width: 135px;
     margin: 0 auto;
+    max-width: 135px;
+    color: #fff;
 }
 
 .reserve-top-info input,
 .reserve-past-info input {
-    background-color: transparent;
-    outline: none;
-    color: #fff;
-    padding: 19px 25px;
-    border: 1px solid #858585;
-    width: 307px;
     margin-right: 26px;
+    padding: 19px 25px;
+    width: 307px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #858585;
     outline: none;
 }
 
@@ -982,8 +980,8 @@ body {
 .input-form-btn,
 .footer-input-btn {
     display: inline-block;
-    background-color: transparent;
     color: #E1B168;
+    background-color: transparent;
     border: 2px solid #E1B168;
 }
 
@@ -1031,25 +1029,29 @@ footer {
 }
 
 .footer-contact h3 {
-    color: #fff;
     max-width: 90px;
+    color: #fff;
 }
 
-.footer-contact p, .footer-mail p, 
-.footer-work-hour p, .footer-past-setting p, 
-.footer-past-item{
+.footer-contact p,
+.footer-mail p,
+.footer-work-hour p,
+.footer-past-setting p,
+.footer-past-item {
+    margin: 0;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    margin: 0;
 }
 
-.footer-mail p{
+.footer-mail p {
     text-align: center;
 }
 
-.footer-contact p span, .footer-work-hour p span, .footer-past-setting p span{
+.footer-contact p span,
+.footer-work-hour p span,
+.footer-past-setting p span {
     color: #E1B168;
 }
 
@@ -1060,27 +1062,27 @@ footer {
 }
 
 .footer-mail-box input {
+    width: 456px;
+    padding: 17px 24px;
     border: 1px solid #858585;
     background: #292E36;
-    padding: 17px 24px;
-    width: 456px;
     outline: none;
     color: #fff;
 }
 
-.footer-input-btn{
+.footer-input-btn {
     padding: 11.5px 40px;
 }
 
-.footer-work-hour{
+.footer-work-hour {
     text-align: right;
 }
 
 .footer-work-hour h3 {
-    color: #fff;
-    max-width: 170px;
-    white-space: nowrap;
     margin-left: auto;
+    max-width: 170px;
+    color: #fff;
+    white-space: nowrap;
 }
 
 .footer-past {
@@ -1104,4 +1106,5 @@ footer {
 .footer-past-setting p span {
     margin: 0 5px 0 10px;
 }
+
 /* End of Footer Section */
