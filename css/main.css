@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Josefin+Sans&display=swap');
+:root {
+    --main-color: #E1B168;
+    --main-color-2: #ffffff;
+    --main-font-color: #292E36;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/josefin-sans-v24-latin-regular.woff2') format('woff2'),
+        url('../fonts/josefin-sans-v24-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cormorant-infant-v16-latin-regular.woff2') format('woff2'),
+        url('../fonts/cormorant-infant-v16-latin-regular.woff') format('woff');
+}
 
 * {
     margin: 0;
@@ -6,8 +26,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
-    font-family: 'Josefin Sans';
+    font-family: 'Cormorant Infant''Arial'sans-serif;
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -18,7 +43,7 @@ body {
 
 /* Header Section */
 #main-header {
-    background-color: #292E36;
+    background-color: var(--main-font-color);
     padding-top: 60px;
 }
 
@@ -38,8 +63,8 @@ body {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
-    border: 2px solid #E1B168;
+    color: var(--main-color-2);
+    border: 2px solid var(--main-color);
     text-decoration: none;
     transition: .5s;
 }
@@ -52,8 +77,8 @@ body {
 .blog-link:hover,
 .input-form-btn:hover,
 .footer-input-btn:hover {
-    color: #292E36;
-    background-color: #E1B168;
+    color: var(--main-font-color);
+    background-color: var(--main-color);
 }
 
 .site-logo {
@@ -97,18 +122,18 @@ body {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
     text-decoration: none;
     transition: .5s;
     padding: 0;
 }
 
 .nav-link:hover {
-    color: #E1B168;
+    color: var(--main-color);
 }
 
 .nav-link:focus {
-    color: #E1B168;
+    color: var(--main-color);
 }
 
 .nav-icons {
@@ -126,7 +151,7 @@ body {
 
 /* Hero Section */
 #hero-section {
-    background-color: #292E36;
+    background-color: var(--main-font-color);
     padding-top: 10px;
 }
 
@@ -143,7 +168,7 @@ body {
     font-size: 100px;
     line-height: 110px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .hero-info p {
@@ -151,7 +176,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .hero-info a {
@@ -159,9 +184,9 @@ body {
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #E1B168;
+    color: var(--main-color);
     padding: 20px 57px;
-    border: 2px solid #E1B168;
+    border: 2px solid var(--main-color);
     text-decoration: none;
     transition: .5s;
 }
@@ -187,7 +212,7 @@ body {
     margin-left: 30px;
     width: 656px;
     height: 30px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff1a;
 }
 
 .hero-frame-box {
@@ -198,13 +223,13 @@ body {
 .hero-frame-2 {
     width: 30px;
     height: 770px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff1a;
 }
 
 .hero-frame-3 {
     width: 30px;
     height: 770px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff1a;
 }
 
 /* End of Hero Section */
@@ -231,7 +256,7 @@ body {
     justify-content: center;
     width: 83px;
     height: 83px;
-    background-color: #292E36;
+    background-color: var(--main-font-color);
     border-radius: 50%;
 }
 
@@ -259,7 +284,7 @@ body {
     font-size: 30px;
     line-height: 39px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .info-part-text p {
@@ -271,7 +296,6 @@ body {
 
 .main-info-part {
     display: flex;
-    /* align-items: center; */
     padding: 84px 0 125px 0;
 }
 
@@ -290,7 +314,7 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .story-text p {
@@ -311,7 +335,7 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .info-years-list p {
@@ -354,13 +378,14 @@ body {
     margin-bottom: 12px;
     max-width: 60px;
     padding-top: 5px;
-    border-top: 1px solid #E1B168;
-    border-bottom: 1px solid #E1B168;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    font-family: 'Cormorant Infant''Arial'sans-serif;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .menu-food-info h3 {
@@ -368,7 +393,7 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
     text-transform: capitalize;
 }
 
@@ -392,9 +417,9 @@ body {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
-    color: #E1B168;
+    color: var(--main-color);
     text-decoration: none;
-    border: 2px solid #E1B168;
+    border: 2px solid var(--main-color);
     transition: .5s;
 }
 
@@ -403,7 +428,7 @@ body {
     font-size: 36px;
     line-height: 50px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .menu-list {
@@ -428,7 +453,7 @@ body {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .menu-info p {
@@ -453,7 +478,7 @@ body {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .main-dish-menu,
@@ -464,13 +489,13 @@ body {
 /* End of Menu Section */
 /* Testimonial Section */
 #testimonal-section {
-    background-color: #292E36;
+    background-color: var(--main-font-color);
     padding: 145px 0 120px 0;
 }
 
 .testimonal-part h2 {
     max-width: 138px;
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .testimonal-part h3 {
@@ -479,14 +504,14 @@ body {
     line-height: 56px;
     letter-spacing: 0.2px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .testimonal-part p {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .slide-info {
@@ -514,8 +539,8 @@ body {
     align-items: center;
     width: 28px;
     height: 28px;
-    background: #E1B168;
-    border: 2px solid #292E36;
+    background: var(--main-color);
+    border: 2px solid var(--main-font-color);
     border-radius: 100px;
 }
 
@@ -533,18 +558,18 @@ body {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .slide-top-name h5 {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #E1B168;
+    color: var(--main-color);
 }
 
 .slide-line {
-    background-color: #fff;
+    background-color: var(--main-color-2);
 }
 
 .info-text p {
@@ -553,7 +578,7 @@ body {
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.25px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .swiper {
@@ -630,7 +655,7 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .offers-info-top p,
@@ -680,7 +705,7 @@ body {
     font-size: 15px;
     line-height: 10px;
     letter-spacing: 0.15px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .offer-item-price h5 {
@@ -688,7 +713,7 @@ body {
     font-size: 60px;
     line-height: 66px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .offer-info p:first-child {
@@ -698,9 +723,9 @@ body {
     line-height: 22px;
     letter-spacing: 4.5px;
     text-transform: uppercase;
-    color: #292E36;
-    border-top: 1px solid #292E36;
-    border-bottom: 1px solid #292E36;
+    color: var(--main-font-color);
+    border-top: 1px solid var(--main-font-color);
+    border-bottom: 1px solid var(--main-font-color);
 }
 
 .offer-info h6 {
@@ -708,7 +733,7 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .offer-info p:last-child {
@@ -721,7 +746,7 @@ body {
 
 .offers-prices-right h4,
 .offers-prices-right h5 {
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 /* End of Offers Section */
@@ -758,7 +783,7 @@ body {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .past-menu-item p {
@@ -778,28 +803,28 @@ body {
 
 /* Our Offer Sectcion */
 #our-offer-section {
-    background: #292E36;
+    background-color: var(--main-font-color);
 }
 
 .our-offer-part {
     padding: 140px 0;
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .our-offer-info h3 {
     max-width: 170px;
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .our-offer-info h2 {
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .our-offer-info p {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .our-info-icons {
@@ -869,13 +894,13 @@ body {
 .blog-food-about-photo:hover .blog-link {
     bottom: 40%;
     visibility: visible;
-    color: #292E36;
-    background: #E1B168;
-    border: 2px solid #E1B168;
+    color: var(--main-font-color);
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
 }
 
 .blog-food-about-photo:hover .blog-link:active {
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .blog-food-about-photo img {
@@ -885,8 +910,7 @@ body {
 
 .blog-food-about-photo:hover img {
     opacity: .2;
-    background: rgba(0, 0, 0, 0.65);
-    background-color: #000;
+    background: #000000a6;
 }
 
 .blog-food-about-info {
@@ -913,7 +937,7 @@ body {
     font-size: 30px;
     line-height: 39px;
     letter-spacing: 0.2px;
-    color: #292E36;
+    color: var(--main-font-color);
 }
 
 .blog-food-about-info p {
@@ -936,7 +960,7 @@ body {
 
 .reserve-part {
     padding: 145px 140px 155px 140px;
-    background: rgba(41, 46, 54, 0.95);
+    background-color: #292e36f2;
     text-align: center;
 }
 
@@ -948,13 +972,13 @@ body {
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .reserve-part h3 {
     margin: 0 auto;
     max-width: 135px;
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .reserve-top-info input,
@@ -962,10 +986,9 @@ body {
     margin-right: 26px;
     padding: 19px 25px;
     width: 307px;
-    color: #fff;
+    color: var(--main-color-2);
     background-color: transparent;
     border: 1px solid #858585;
-    outline: none;
 }
 
 .reserve-past-info {
@@ -980,27 +1003,27 @@ body {
 .input-form-btn,
 .footer-input-btn {
     display: inline-block;
-    color: #E1B168;
+    color: var(--main-color);
     background-color: transparent;
-    border: 2px solid #E1B168;
+    border: 2px solid var(--main-color);
 }
 
 .input-form-btn:hover {
-    border: 2px solid #E1B168;
+    border: 2px solid var(--main-color);
 }
 
 .input-form-btn:active,
 .footer-input-btn:active {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: var(--main-color-2);
+    border: 2px solid var(--main-color-2);
 }
 
 /* End of Reserve Section */
 
 /* Footer Section */
 footer {
-    background: #292E36;
-    color: #fff;
+    background: var(--main-font-color);
+    color: var(--main-color-2);
 }
 
 .footer-part {
@@ -1017,7 +1040,7 @@ footer {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
-    color: #FFFFFF
+    color: var(--main-color-2);
 }
 
 .footer-info {
@@ -1030,7 +1053,7 @@ footer {
 
 .footer-contact h3 {
     max-width: 90px;
-    color: #fff;
+    color: var(--main-color-2);
 }
 
 .footer-contact p,
@@ -1042,7 +1065,7 @@ footer {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: var(--main-color-2);
 }
 
 .footer-mail p {
@@ -1052,7 +1075,7 @@ footer {
 .footer-contact p span,
 .footer-work-hour p span,
 .footer-past-setting p span {
-    color: #E1B168;
+    color: var(--main-color);
 }
 
 .footer-mail-box {
@@ -1065,9 +1088,8 @@ footer {
     width: 456px;
     padding: 17px 24px;
     border: 1px solid #858585;
-    background: #292E36;
-    outline: none;
-    color: #fff;
+    background: var(--main-font-color);
+    color: var(--main-color-2);
 }
 
 .footer-input-btn {
@@ -1081,7 +1103,7 @@ footer {
 .footer-work-hour h3 {
     margin-left: auto;
     max-width: 170px;
-    color: #fff;
+    color: var(--main-color-2);
     white-space: nowrap;
 }
 
