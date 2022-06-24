@@ -87,8 +87,8 @@ body {
 }
 
 .header-top-link {
-    text-decoration: none;
     padding: 20px 85px;
+    text-decoration: none;
 }
 
 .header-line-top,
@@ -119,13 +119,13 @@ body {
 }
 
 .nav-link {
+    padding: 0;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
     color: var(--main-color-2);
     text-decoration: none;
     transition: .5s;
-    padding: 0;
 }
 
 .nav-link:hover {
@@ -151,8 +151,8 @@ body {
 
 /* Hero Section */
 #hero-section {
-    background-color: var(--main-font-color);
     padding-top: 10px;
+    background-color: var(--main-font-color);
 }
 
 .hero-part {
@@ -180,12 +180,12 @@ body {
 }
 
 .hero-info a {
+    padding: 20px 57px;
     font-size: 22px;
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.2px;
     color: var(--main-color);
-    padding: 20px 57px;
     border: 2px solid var(--main-color);
     text-decoration: none;
     transition: .5s;
@@ -209,9 +209,9 @@ body {
 }
 
 .hero-frame-1 {
-    margin-left: 30px;
     width: 656px;
     height: 30px;
+    margin-left: 30px;
     background-color: #ffffff1a;
 }
 
@@ -353,9 +353,9 @@ body {
 }
 
 .signuture-box img {
-    margin-top: 10px;
     width: 198px;
     height: 108px;
+    margin-top: 10px;
 }
 
 /* End of Info Section */
@@ -375,17 +375,17 @@ body {
 .reserve-top-text h3,
 .footer-contact h3,
 .footer-work-hour h3 {
-    margin-bottom: 12px;
     max-width: 60px;
+    margin-bottom: 12px;
     padding-top: 5px;
-    border-top: 1px solid var(--main-color);
-    border-bottom: 1px solid var(--main-color);
     font-family: 'Cormorant Infant''Arial'sans-serif;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--main-font-color);
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 .menu-food-info h3 {
@@ -405,9 +405,9 @@ body {
 }
 
 .menu-food-info img {
-    margin: 25px 0 60px 0;
     width: 398px;
     height: 548px;
+    margin: 25px 0 60px 0;
 }
 
 .menu-link,
@@ -489,8 +489,8 @@ body {
 /* End of Menu Section */
 /* Testimonial Section */
 #testimonal-section {
-    background-color: var(--main-font-color);
     padding: 145px 0 120px 0;
+    background-color: var(--main-font-color);
 }
 
 .testimonal-part h2 {
@@ -860,8 +860,8 @@ body {
 }
 
 .blog-top-info h3 {
-    margin-bottom: 10px;
     max-width: 55px;
+    margin-bottom: 10px;
 }
 
 .blog-food-info {
@@ -884,10 +884,10 @@ body {
     position: absolute;
     right: 30%;
     bottom: 0%;
+    visibility: hidden;
     color: #000;
     border: none;
     transition: 1s ease-in-out;
-    visibility: hidden;
     color: transparent;
 }
 
@@ -926,8 +926,8 @@ body {
 }
 
 .blog-food-about-info-top h3:last-child {
-    margin-left: 30px;
     max-width: 160px;
+    margin-left: 30px;
     white-space: nowrap;
 }
 
@@ -976,16 +976,16 @@ body {
 }
 
 .reserve-part h3 {
-    margin: 0 auto;
     max-width: 135px;
+    margin: 0 auto;
     color: var(--main-color-2);
 }
 
 .reserve-top-info input,
 .reserve-past-info input {
+    width: 307px;
     margin-right: 26px;
     padding: 19px 25px;
-    width: 307px;
     color: var(--main-color-2);
     background-color: transparent;
     border: 1px solid #858585;
@@ -1101,8 +1101,8 @@ footer {
 }
 
 .footer-work-hour h3 {
-    margin-left: auto;
     max-width: 170px;
+    margin-left: auto;
     color: var(--main-color-2);
     white-space: nowrap;
 }
